@@ -1,6 +1,9 @@
 .fifth{
     height: 80vh;
     background-color: #eeeeee;
+    @media only screen and (max-width: 600px) {
+        height: 100%; 
+          }
 
 
     .works{
@@ -29,6 +32,12 @@ margin: 14px 0;
        flex-direction: row;
        justify-content: space-evenly;
        padding: 10px 0 0 0;
+
+
+       @media only screen and (max-width: 600px) {
+        flex-direction: column; 
+      padding-left: 100px;
+        }
 
 
    .card{

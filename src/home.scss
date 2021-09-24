@@ -12,6 +12,9 @@
  .second{
      background-color: #eeeeee;
      height: 90vh;
+     @media only screen and (max-width: 600px) {
+        height: 100%;   
+            }
 
 
  }
@@ -36,6 +39,9 @@
  .fifth{
      height: 80vh;
      background-color: #eeeeee;
+     @media only screen and (max-width: 600px) {
+      height: 300vh; 
+        }
 
 
      

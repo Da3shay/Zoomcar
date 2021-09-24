@@ -1,0 +1,54 @@
+.fourth{
+    height: 90vh;
+    .cars{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .headd{
+           padding-top: 30px;
+           font-size: 30px;
+
+        }
+        .midd{
+            font-size: 18px;
+        }
+
+
+    }
+
+.outer{
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+   text-align: start;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+.in1{
+   display: flex;
+ 
+   justify-content: space-between;
+
+   .outercont{
+       margin-left: 80px;
+       h2{
+           font-size: 50px;
+           font-weight: 200;
+       }
+       h5{
+           font-size: 18px;
+       }
+
+       p{
+           margin-top: 30px;
+           font-size: 12px;
+       }
+   }
+}
+
+
+  
+}

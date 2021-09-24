@@ -1,0 +1,16 @@
+.eight{
+     height: 100vh;
+     color: white !important;
+     .quotes{
+         text-align: center;
+         .quote{
+             margin: 40px 0;
+             font-style: italic;
+             .author{
+                 color: yellow;
+                 font-size: 24px;
+             }
+         }
+     }
+
+ }

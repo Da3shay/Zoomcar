@@ -1,0 +1,27 @@
+.seventh{
+    height: 50vh;
+    background-color: #eeeeee;
+    color: black;
+    text-align: center;
+    @media only screen and (max-width: 600px) {
+    height: max-content;
+       }
+    .exp{
+        display: flex;
+        justify-content: space-around;
+        @media only screen and (max-width: 600px) {
+           flex-direction: column;
+          }
+      
+
+
+        h2{
+            font-size: 30px;
+        }
+        p{
+            font-size:  18px;
+        }
+    }
+
+
+}

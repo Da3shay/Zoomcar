@@ -1,0 +1,12 @@
+.nine{
+    height: 20vh;
+    background-color: white;
+    @media only screen and (max-width: 600px) {
+        
+        height: 0;
+      }
+  
+    .carousel-item{
+        cursor: pointer;
+    }
+}

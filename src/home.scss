@@ -1,0 +1,106 @@
+.main-sections{
+    height: 80vh;
+    font-family: open-sans;
+  
+
+
+  
+}
+
+
+
+ .second{
+     background-color: #eeeeee;
+     height: 90vh;
+
+
+ }
+
+ .third{
+     height: 100vh;
+
+ }
+
+
+
+ .fourth{
+     height: 90vh;
+    
+
+
+
+
+   
+ }
+
+ .fifth{
+     height: 80vh;
+     background-color: #eeeeee;
+
+
+     
+
+ }
+
+ .sixth{
+     height: 100vh;
+     .apps{
+
+        width: 70%;
+        margin: 0 auto;
+        padding:180px 0;
+        color: white;
+      .go{
+          font-size: 20px;
+          color: #eee;
+          margin: 10px 0;
+          font-weight: 600;
+     
+      }
+      .book{
+          font-size:14px
+     
+      }
+      .storebtn{
+          margin: 10px 0;
+          cursor: pointer;
+     
+      }
+     }
+     
+
+ }
+
+ .seventh{
+     height: 50vh;
+     background-color: #eeeeee;
+     color: black;
+     text-align: center;
+    
+
+
+ }
+ .eight{
+     height: 100vh;
+     color: white !important;
+     
+
+ }
+
+ .nine{
+     height: 20vh;
+     background-color: white;
+     @media only screen and (max-width: 600px) {
+        
+       display: none;
+      }
+  
+ }
+
+ .ten{
+     height: 20vh;
+     background-color: #43505c;
+
+  
+     
+ }

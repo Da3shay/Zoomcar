@@ -1,0 +1,118 @@
+.zpt{
+
+    color: black;
+    text-align: center;
+ 
+    z-index: 4;
+    margin-top: -60px;
+    background-color: white;
+ 
+    margin-left: auto;
+ margin-right: auto;  
+ 
+ 
+ justify-content: center;
+ border: none;
+ .cardtopp{
+     border: 1px solid #eee;
+     border-radius: 3px;
+     box-shadow: 0 20px 20px -10px #eee;
+ }
+ 
+ .lrnbtn{
+ 
+  margin-top: 40px; 
+  button{
+      border-color: black;
+      width: 100%;
+      color: black;
+      font-size: 14px;
+  }
+  button:hover{
+      background-color: white;
+      color: green;
+      border-color: green;
+  }  
+ }
+ }
+ 
+ 
+ 
+ 
+      .thirdupper{
+          height: 50vh;
+            position: relative;
+            img{
+              
+             opacity: 0.3;
+             filter: contrast(200%);
+           
+             z-index: -1;
+         
+             
+         }
+ 
+          .upeercontent{
+ 
+              position: absolute;
+              top: 0;
+              z-index: 2;
+           
+              text-align: center;
+              width: 100%;
+              color: black;
+ 
+              img{
+                  opacity: 1;
+                  margin-top: 20px;
+                  margin-bottom: 10px;
+              }
+              .club{
+                  margin-bottom: 10px;
+                  font-size: 24px;
+                  font-weight: bold;
+ 
+              }
+              .prem{
+                  margin-bottom: 10px;
+              }
+              .super{
+                  color:  #303030;
+                  
+              
+                  
+              }
+ 
+ 
+              .dashdiv{
+                  display: flex;
+               
+                  justify-content: center;
+                  .linebefore{
+                      width: 40px;
+                      height: 1px;
+                      background-color: black;
+                      margin-right: 15px;
+                      margin-top: 10px;
+                  }
+                  .lineafter{
+                     width: 40px;
+                     height: 1px;
+                     background-color: black;
+                     margin-left: 15px;
+                     margin-top: 10px;
+                 }
+                
+                
+             
+             
+             
+              }
+ 
+          }
+     
+ 
+      }
+      .thirdlower{
+             height: 50h;
+      }

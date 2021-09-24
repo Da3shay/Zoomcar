@@ -1,0 +1,127 @@
+.first{
+
+    background-position: center; 
+    background-repeat: no-repeat;
+    font-family: Open-Sans;
+
+  background-size: cover;
+  font-size: 34px;
+  color: #fff;
+  font-weight: 600;
+    width: 100%;
+
+    .firstcontent{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        height: max-content;
+        width: fit-content;
+        padding-top: 140px;
+        text-align: center;
+        option{
+            color: black;
+            
+        }
+      
+      
+       .mid{
+            text-align: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #fff;
+            margin: 0 0 30px 0;
+            font-weight: 400;
+            
+            @media only screen and (max-width: 600px) {
+                  
+            margin:0 0 0 0 ;
+             
+             
+         
+              }
+
+           
+
+                @media only screen and (max-width: 600px) {
+                  
+                    flex-direction: column;
+                    margin-left: 0 !important;
+                 
+                 
+             
+                  }
+              
+                  
+              .self{
+                @media only screen and (max-width: 600px) {
+                  
+                  margin-left: auto;
+                  margin-right: auto;
+                 
+             
+                  }
+                  .menu1{
+                    margin-left:10px;
+                    @media only screen and (max-width: 600px) {
+                  
+                        margin-left: 100px !important;
+                       
+                       
+                   
+                        }
+
+                  }
+              
+              }
+                
+       
+           
+
+       }
+      
+
+         
+           .botbox{
+                  width: 540px;
+
+    height: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    line-height: 60px;
+    text-align: left;
+    text-indent: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+    color: #323a44;
+    text-decoration: none;
+
+    @media only screen and (max-width: 600px) {
+        
+     width: 340px;
+     margin-left: auto;
+     margin-right: auto;
+      }
+    .arrow{
+        position: absolute;
+        top: 22px;
+        right: 30px;
+        content: '';
+        height: 13px;
+        width: 13px;
+        border: 0;
+        border-right: 2px solid #323a44;
+        border-bottom: 2px solid #323a44;
+        -webkit-transform: rotate(
+    -45deg);
+        transform: rotate(
+    -45deg);
+        display: inline-block;
+    }
+           }
+       }
+      
+
+    }

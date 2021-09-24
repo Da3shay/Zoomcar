@@ -1,0 +1,49 @@
+footer{
+    background-color: #33414f;
+    color: white;
+    height:max-content ;
+
+
+
+.ft{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+
+.abtfc{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    line-height: 35px;
+    font-size: 12px;
+    margin: 20px 0;
+}
+hr{
+    background-color: white;
+
+}
+
+.flinks{
+    display: flex;
+    flex-direction: column;
+.each-flinks{
+    margin: 8px 80px;
+    font-size: 14px;
+    color: #ADB3b8;
+
+    i{
+        margin: 0 6px;
+    }
+}
+.efef{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+}
+}

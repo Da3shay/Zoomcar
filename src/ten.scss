@@ -1,0 +1,37 @@
+.ten{
+    height: 20vh;
+    background-color: #43505c;
+    @media only screen and (max-width: 600px) {
+        
+    height: 100%;
+      }
+  
+
+    .linkss{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+       //  padding-top: 20px;
+        color: white;
+        @media only screen and (max-width: 600px) {
+        
+            display: flex;
+            flex-direction: column;
+          }
+      
+         
+
+    }
+    .el{
+        img:hover{
+            opacity: 0.5;
+            cursor: pointer;
+        }
+    
+    }
+
+    
+}

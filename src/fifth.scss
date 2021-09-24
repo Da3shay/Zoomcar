@@ -1,0 +1,85 @@
+.fifth{
+    height: 80vh;
+    background-color: #eeeeee;
+
+
+    .works{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 0;
+
+.how{
+   font-size: 21px;
+   color:#666666;
+   text-transform: uppercase;
+   margin: 0;
+}
+
+
+
+.drive{
+margin: 14px 0;
+}
+
+
+    .allcard{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       padding: 10px 0 0 0;
+
+
+   .card{
+     
+       width: 200px;
+     
+       display: flex;
+      
+       flex-direction: column;
+      
+       align-items: center;
+       text-align: center;
+       padding: 10px;
+       background-color: #fff;
+       margin-top: 10px;
+      
+           img{
+               width: 90px;
+               height: 60px;
+           }
+           h5{
+               font-size: 18px;
+               color: #70Ad4d;
+               margin: 18px 0;
+           }
+           p{
+               font-size:12px;
+               margin-bottom: 0;
+           }
+   }
+
+
+}
+
+.signbtn{
+
+  
+
+   margin-top: 20px; 
+   button{
+       border-color: black;
+       width: 100px;
+       color: black;
+       font-size: 14px;
+   }
+   button:hover{
+       background-color: #eeeeee;
+       color: green;
+       border-color: green;
+   }  
+  }
+    }
+
+}
